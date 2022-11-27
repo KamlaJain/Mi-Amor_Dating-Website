@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body { 
+    color: sienna;
+    background : wheat;
+    font : normal 16px Tahoma, sans serif ;
+    line-height: 1.6em ;
+    margin:0%;
+    
+
+     }
+
+.container {
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+#main-header {
+    background-color: blanchedalmond;
+    color: brown;
+    height: 50px;
+    padding-top: 2%;
+}
+#topbar {
+    background-color: orange;
+    color: black;
+}
+
+#topbar ul{
+    padding: 5%;
+    list-style: none;
+}
+
+#topbar li{
+    display: inline;
+}
+
+#topbar a {
+    color:olivedrab;
+    color:chocolate;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 50px;
+    height: 5px;
+
+}
+
+
+
+#introduction {
+    background-image:url('../images/pastel.jpg') ;
+    background-position: center right;
+    height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+#introduction h1{
+    color: brown;
+    padding: 30px 10px 20px 10px;
+}
+/*main
+sidebar
+main-footer
