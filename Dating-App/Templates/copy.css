@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --linear-grad: linear-gradient(to right, #141E30, #243B55);
+    --grad-clr1: #141E30;
+    --grad-clr2: #243B55;
+}
+
+body {
+    padding: 0%;
+    background: #f6f5f7;
+    
+    place-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-container { background-color: #d1cce6; 
+    --linear-grad: linear-gradient(to right, #141E30, #243B55);}
+.img-container img { opacity: 0.5; }
+
+#main-header {
+    place-content: center;
+    color: rgb(114, 103, 219);
+    height: 100px;
+    padding-top: 0%;
+}
+
+#topbar {
+    background-color: rgb(197, 190, 216);
+    color: black;
+}
+
+#topbar ul{
+    padding: 0px;
+    list-style: none;
+}
+
+#topbar li{
+    display: inline;
+}
+
+#topbar a {
+    color:rgb(36, 39, 30);
+    color:rgb(16, 12, 75);
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 50px;
+    height: 2px;
+
+}
+
+#sign-up{
+    float: left;
+    width: 240px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
+#sign-in{
+    width:240px;
+    margin-left: auto;
+    margin-right: auto;
+    float:left;
+    margin-top: 10px;
+    padding: 10px;
+    position: absolute;
+    top:50%;
+    transform: translate(-50%, -50%);
+    right: 16px;
+    }
+
+
+
+
+
+
+
+
+footer {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
+footer mark {
+    padding: 8px 30px;
+    border-radius: 7px;
+}
+footer a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #003;
+}
